@@ -1,0 +1,16 @@
+.app{
+  font-family:sans-serif;
+  background-color: #2A3439;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-tasks{
+  font-size: 2rem;
+  color: #4b171d;
+  background-color: #e74255d6;
+  padding: 1%;
+  border-radius: 20px;
+}

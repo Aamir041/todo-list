@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    width: 90%;
+    padding: 2% auto;
+}
+
+.addtask-container{
+    padding: 1% 5%;
+    background-color: #3B444B;
+    width: 70%;
+    margin: 3% auto;
+    display: flex;
+}
+
+.addtask-container ::placeholder{
+    color: white;
+}
+
+.addtask-container input{
+    font-size: 1.5rem;
+    background-color: #3B444B;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #2A3439;
+    color: white;
+    width: 80%;
+    margin-right: 3%;
+    padding: 1%;
+}
+
+.addtask-button{
+    background-color: #2A3439;
+    color: white;
+    padding: 1%;
+    font-size: 100%;
+    outline: none;
+    border: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+
