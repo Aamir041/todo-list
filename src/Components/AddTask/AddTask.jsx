@@ -21,8 +21,8 @@ const AddTask = ({addTask}) => {
     return <>
     <form>
         <div className="addtask-container">
-            <input onChange={(e) => setTask(e.target.value)} type="text" placeholder="Enter Task" />
-            <button onClick={submitTask}
+            <input onChange={(e) => setTask(e.target.value)} type="text" placeholder="Enter Task" value={!task ? "" : task } />
+            <button type="submit" onClick={submitTask}
             className="addtask-button">Add Task</button>
         </div>
     </form>

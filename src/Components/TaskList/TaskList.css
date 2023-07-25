@@ -12,7 +12,7 @@
 .tasklist-title{
     font-size: 1.5rem;
     width: 70%;
-    color: white;
+    color: #CBE4DE;
     line-height: 140%;
 }
 
@@ -23,12 +23,11 @@
 }
 
 .tasklist-del-bttn{
-    background-color: #2A3439;
+    background-color: #e74255d6;
     padding: 15% 25%;
     font-size: 1rem;
     outline: none;
     border: none;
     margin-left: auto;
     cursor: pointer;
-    color: white;
 }

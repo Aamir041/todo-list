@@ -17,6 +17,7 @@ function App() {
   return (
     <>
       <div className='app'>
+        <h1 className='heading'>To Do List</h1>
         <AddTask addTask={addTask}/>
         {tasks.length > 0
           ? tasks.map((ele) => <TaskList key={ele.id} task={ele} deleteTask={deleteTask}></TaskList>)
