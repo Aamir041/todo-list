@@ -1,0 +1,50 @@
+.edit-task{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    top: 0;
+    left: 0;
+}
+
+.edit-task-close-bttn{
+    position: absolute;
+    top: 0;
+    right:0;
+    margin: 2rem;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #e74255d6;
+}
+
+.edit-task-feilds{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-task-input{
+    margin: 10rem auto 2rem auto;
+    font-size: 2rem;
+    font-size: 1.5rem;
+    background-color: #27374D;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #2A3439;
+    color: #CBE4DE;
+    width: 50%;
+    padding: 1%;
+}
+
+.edit-task-confirm{
+    width: max-content;
+    padding: 0.3rem 0.5rem;
+    margin: auto;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #1DB45A;
+    border-radius: 8px;
+}

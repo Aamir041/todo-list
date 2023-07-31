@@ -17,17 +17,27 @@
 }
 
 
-.tasklist-del-bttn-container{
+.tasklist-bttn-container{
     padding: 0 8%;
     margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
 }
 
-.tasklist-del-bttn{
-    background-color: #e74255d6;
+.tasklist-bttn-container button{
+    
     padding: 15% 25%;
     font-size: 1rem;
     outline: none;
     border: none;
     margin-left: auto;
     cursor: pointer;
+}
+
+.tasklist-del-bttn{
+    background-color: #e74255d6;
+}
+
+.tasklist-edit-bttn{
+    background-color: #61DBFB;
 }

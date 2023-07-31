@@ -14,13 +14,31 @@ function App() {
     setTasks([...temp]);
   }
 
+  const editTask = (id,newTask) => {
+    
+    let temp = tasks.map((ele) => {
+      if(ele.id === id){
+        ele.title = newTask;
+      }
+      return ele;
+    })
+    
+    setTasks([...temp]);
+
+  }
+
   return (
     <>
       <div className='app'>
-        <h1 className='heading'>To Do List</h1>
         <AddTask addTask={addTask}/>
         {tasks.length > 0
-          ? tasks.map((ele) => <TaskList key={ele.id} task={ele} deleteTask={deleteTask}></TaskList>)
+          ? tasks.map(
+            (ele) => <TaskList 
+          key={ele?.id} 
+          task={ele} 
+          deleteTask={deleteTask}
+          editTask={editTask}
+          />)
           : <div className='no-tasks'>No Tasks Added</div>
         }
       </div>
