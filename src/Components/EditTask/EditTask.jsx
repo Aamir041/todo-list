@@ -1,4 +1,3 @@
-import { useActionData } from "react-router-dom";
 import "./EditTask.css"
 import { useState } from "react";
 
@@ -21,7 +20,7 @@ const EditTask = ({setEditPane,prevTask,changeTask}) => {
             X 
             </button>
             
-            <div className="edit-task-feilds">
+            <form className="edit-task-feilds">
             
             <input
             onChange={(e) => setNewTask(e.target.value)}
@@ -32,11 +31,13 @@ const EditTask = ({setEditPane,prevTask,changeTask}) => {
 
             <button 
             className="edit-task-confirm"
+            type="submit
+            "
             onClick={addEdit}
             >
                 Confirm
             </button>
-            </div>
+            </form>
         </div>
     )
 }
