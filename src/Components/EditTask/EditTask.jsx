@@ -11,6 +11,7 @@ const EditTask = ({setEditPane,prevTask,changeTask}) => {
     }
 
     return(
+        
         <div className="edit-task">
             
             <button
