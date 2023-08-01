@@ -1,20 +1,39 @@
+.logo{
+  margin-top: 2rem;
+  display: flex;
+  font-size: 400%;
+  align-items: center;
+}
+
+.logo span{
+  margin: 0rem 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.todo-icon{
+  font-size: 300%;
+}
+
+
+
 .heading{
   margin-top: 2%;
   color: #CBE4DE;
 }
 .app{
   font-family:sans-serif;
-  background-color: #2A3439;
-  height: 100vh;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .no-tasks{
   font-size: 1.5rem;
-  
+  color: white;
   background-color: #e74255d6;
-  padding: 1%;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 8px;
 }

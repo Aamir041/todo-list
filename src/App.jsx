@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import {FcTodoList} from 'react-icons/fc'
+
 import './App.css'
 import AddTask from './Components/AddTask/AddTask' 
 import TaskList from './Components/TaskList/TaskList';
@@ -30,6 +32,12 @@ function App() {
   return (
     <>
       <div className='app'>
+
+        <div className="logo">
+          <FcTodoList />
+          <span>Todo</span>
+        </div>
+
         <AddTask addTask={addTask}/>
         {tasks.length > 0
           ? tasks.map(

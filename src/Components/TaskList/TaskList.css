@@ -1,43 +1,50 @@
 .tasklist-container{
-    width: 70%;
-    background-color: #3B444B;
+    background-color: white;
     display: flex;
-    padding: 1%;
+    padding: 1rem;
     align-items: center;
     margin: 0.75%;
-    /* justify-content: center; */
-    
+    width: 69%;
+    max-width: 1200px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
 }
 
 .tasklist-title{
-    font-size: 1.5rem;
-    width: 70%;
-    color: #CBE4DE;
-    line-height: 140%;
+    width: 100%;
+    font-size: 1.25rem;
+    margin-right: auto;
+    line-height: 2rem;
+    background-color: white;
 }
 
 
 .tasklist-bttn-container{
-    padding: 0 8%;
-    margin-left: auto;
-    display: flex;
-    gap: 0.5rem;
+    
+    margin-left: 3rem;
+    
+    background-color: white;
+    /* background-color: red; */
 }
 
 .tasklist-bttn-container button{
-    
-    padding: 15% 25%;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     outline: none;
     border: none;
+    width: 100%;
     margin-left: auto;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .tasklist-del-bttn{
     background-color: #e74255d6;
+    margin-bottom: 0.5rem;
+    
 }
 
 .tasklist-edit-bttn{
     background-color: #61DBFB;
+
 }

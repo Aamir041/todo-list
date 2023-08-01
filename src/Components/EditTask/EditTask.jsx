@@ -11,33 +11,32 @@ const EditTask = ({setEditPane,prevTask,changeTask}) => {
     }
 
     return(
-        
-        <div className="edit-task">
-            
-            <button
-            className="edit-task-close-bttn"
-            onClick={() => setEditPane(false)}
-            > 
-            X 
-            </button>
-            
-            <form className="edit-task-feilds">
-            
-            <input
-            onChange={(e) => setNewTask(e.target.value)}
-            className="edit-task-input" 
-            value={newTask} 
-            type="text"
-            />
 
-            <button 
-            className="edit-task-confirm"
-            type="submit
-            "
-            onClick={addEdit}
+        <div className="edit-task">
+
+            <button
+                className="edit-task-close-bttn"
+                onClick={() => setEditPane(false)}
             >
-                Confirm
+                X
             </button>
+
+            <form className="edit-task-feilds">
+
+                <input
+                    onChange={(e) => setNewTask(e.target.value)}
+                    className="edit-task-input"
+                    value={newTask}
+                    type="text"
+                />
+
+                <button
+                    className="edit-task-confirm"
+                    type="submit"
+                    onClick={addEdit}
+                >
+                    Confirm
+                </button>
             </form>
         </div>
     )
