@@ -5,7 +5,8 @@ const EditTask = ({setEditPane,prevTask,changeTask}) => {
 
     const [newTask,setNewTask] = useState(prevTask);
 
-    const addEdit = () => {
+    const addEdit = (e) => {
+        e.preventDefault();
         changeTask(newTask);
         setEditPane(false);
     }
